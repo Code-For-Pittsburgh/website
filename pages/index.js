@@ -18,9 +18,9 @@ function App() {
       <Features />
       <OurTech />
 
-      <div class="border-t mt-20">
+      <div className="border-t mt-20">
         <footer>
-          <div class="flex flex-col md:flex-row gap-3 items-center justify-between py-10 max-w-screen-lg mx-auto text-sm px-5 text-gray-500">
+          <div className="flex flex-col md:flex-row gap-3 items-center justify-between py-10 max-w-screen-lg mx-auto text-sm px-5 text-gray-500">
             <p>
               © 2023{" "}
               <a
@@ -31,7 +31,7 @@ function App() {
               </a>
               . All rights reserved
             </p>
-            <nav class="flex gap-5">
+            <nav className="flex gap-5">
               <a
                 href="http://"
                 target="_blank"
