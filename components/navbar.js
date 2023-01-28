@@ -15,7 +15,8 @@ export default function Navbar(props) {
     <header
       className={cx(
         !props.noborder && "border-b",
-        !props.nobg && "bg-white",
+        !props.nobg &&
+          "backdrop-filter backdrop-blur-lg bg-opacity-30",
         !props.static && "sticky top-0 z-10",
         " flex items-center justify-between px-5 py-3  "
       )}>
@@ -31,21 +32,21 @@ export default function Navbar(props) {
         </Link>
       </div>
       <nav className="flex items-center gap-5">
-        <Link href="/docs">
+        <Link href="https://www.linkedin.com/company/code-for-pittsburgh/">
           <a className="hidden sm:inline-flex items-center gap-1 text-sm border-b text-slate-900 hover:text-violet-500 hover:border-violet-200 focus-visible:bg-violet-100 focus-visible:border-violet-100 focus-visible:outline-4 focus-visible:outline-violet-100">
-            Documentation
+            LinkedIn
           </a>
         </Link>
         <a
-          href="http://web3templates.com"
+          href="https://github.com/Code-For-Pittsburgh"
           target="_blank"
           rel="noopener"
           className="hidden sm:inline-flex items-center gap-1 text-sm border-b text-slate-900 hover:text-violet-500 hover:border-violet-200 focus-visible:bg-violet-100 focus-visible:border-violet-100 focus-visible:outline-4 focus-visible:outline-violet-100">
-          <span>Download</span>
+          <span>Support</span>
           <ExternalLinkIcon className="w-3 h-3" />
         </a>
         <a
-          href="http://github.com/web3templates"
+          href="https://github.com/Code-For-Pittsburgh"
           target="_blank"
           rel="noopener">
           <GitHubLogoIcon className="w-5 h-5" />
