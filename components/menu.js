@@ -2,6 +2,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import { SideNav } from "@components/sidebar";
+
 export default function MobileMenu(props) {
   let [isOpen, setIsOpen] = useState(false);
 
