@@ -42,7 +42,7 @@ export default function Hero(props) {
           </svg>
         </a>
         <a
-          className="bg-red-400 justify-center inline-flex items-center gap-2 rounded-full py-3 px-6 text-white font-medium hover:bg-violet-700"
+          className="bg-white-400 justify-center inline-flex items-center gap-2 rounded-full py-3 px-6 text-black font-medium hover:bg-violet-700"
           href="https://www.linkedin.com/company/code-for-pittsburgh/">
           <span>Learn more</span>
           <svg

@@ -1,7 +1,6 @@
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
-import { SideNav } from "@components/sidebar";
 
 export default function MobileMenu(props) {
   let [isOpen, setIsOpen] = useState(false);
@@ -45,14 +44,7 @@ export default function MobileMenu(props) {
               leave="ease-in duration-200"
               leaveFrom="  translate-x-0"
               leaveTo="  -translate-x-full">
-              <Dialog.Panel className="w-max h-screen max-w-[calc(100%-3rem)] fixed  top-0 left-0  transform bg-white overflow-y-auto   shadow-xl   transition-all">
-                <SideNav
-                  items={props.sidebar}
-                  active={props.active}
-                  mobile={true}
-                  closeModal={closeModal}
-                />
-              </Dialog.Panel>
+              <Dialog.Panel className="w-max h-screen max-w-[calc(100%-3rem)] fixed  top-0 left-0  transform bg-white overflow-y-auto   shadow-xl   transition-all"></Dialog.Panel>
             </Transition.Child>
           </div>
         </Dialog>

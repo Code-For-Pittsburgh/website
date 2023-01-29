@@ -20,8 +20,9 @@ function Benefits() {
         <div>
           <h3 className="font-semibold text-xl">We know the stuff</h3>
           <p className="mt-1 text-gray-500">
-            You do not need to be an expert to use our plugin. Our
-            expressive API is readable and well documented.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua.
           </p>
         </div>
       </div>
@@ -44,8 +45,9 @@ function Benefits() {
         <div>
           <h3 className="font-semibold text-xl">Highly performant</h3>
           <p className="mt-1 text-gray-500">
-            You can make sure your website or app is highly performant
-            with a built-in system to help you optimize.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua.
           </p>
         </div>
       </div>
@@ -68,8 +70,9 @@ function Benefits() {
         <div>
           <h3 className="font-semibold text-xl">No dependencies </h3>
           <p className="mt-1 text-gray-500">
-            Our plugins do not have any external dependencies so our
-            plugin has the minimal footprint possible.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua.
           </p>
         </div>
       </div>
