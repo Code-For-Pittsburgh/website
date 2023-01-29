@@ -1,6 +1,10 @@
-export default function SideView(props) {
+import Image from "next/image";
+import test from "../public/img/isotest.png";
+
+export default function SideView() {
   return (
-    <div className="grid md:grid-cols-2 max-w-screen-lg mx-auto mt-10 px-5 gap-5">
+    <div
+      className={`grid min-h-300 md:grid-cols-2 max-w-screen-lg mx-auto mt-10 px-5 gap-5`}>
       <div className="flex items-center flex-wrap">
         <div className="max-w-sm">
           <span className="text-violet-500 bg-violet-500/10 px-3 py-1 rounded-full text-xs uppercase font-medium tracking-wider">
@@ -16,8 +20,8 @@ export default function SideView(props) {
             ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>
           <a
-            className="inline-flex items-center gap-2 border-b text-violet-500 text-sm mt-3 hover:border-violet-500"
-            href="/docs">
+            className={`inline-flex items-center gap-2 border-b text-violet-500 text-sm mt-3 hover:border-violet-500`}
+            href="/">
             <span>Learn more</span>
             <svg
               width="15"
@@ -33,6 +37,9 @@ export default function SideView(props) {
             </svg>
           </a>
         </div>
+      </div>
+      <div className="min-w-100 min-h-200">
+        <Image src={test}></Image>
       </div>
     </div>
   );
