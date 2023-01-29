@@ -13,8 +13,8 @@ function App() {
     <div className="max-w-screen-xl mx-auto px-5">
       <Navbar />
       <Hero />
-      <Benefits />
       <SideView />
+      <Benefits />
       <Features />
       <OurTech />
 

@@ -1,11 +1,18 @@
+/* 
+html{
+    background: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+} */
+
+html{
+  background-color: white    
+  }
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 /*Custom Styles Here*/
 
-html{
-    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
-}
+
 
 /*! purgecss start ignore */
 @import "prism.css";

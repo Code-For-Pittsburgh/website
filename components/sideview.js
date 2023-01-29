@@ -1,6 +1,6 @@
-export default function SideView() {
+export default function SideView(props) {
   return (
-    <div className="grid md:grid-cols-2 max-w-screen-lg mx-auto mt-40 px-5 gap-5">
+    <div className="grid md:grid-cols-2 max-w-screen-lg mx-auto mt-10 px-5 gap-5">
       <div className="flex items-center flex-wrap">
         <div className="max-w-sm">
           <span className="text-violet-500 bg-violet-500/10 px-3 py-1 rounded-full text-xs uppercase font-medium tracking-wider">
@@ -17,7 +17,7 @@ export default function SideView() {
           <a
             className="inline-flex items-center gap-2 border-b text-violet-500 text-sm mt-3 hover:border-violet-500"
             href="/docs">
-            <span>Read Docs</span>{" "}
+            <span>Read Docs</span>
             <svg
               width="15"
               height="15"

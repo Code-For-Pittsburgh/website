@@ -38,7 +38,6 @@ function Box(props) {
       <div className="flex flex-col">
         <span className="font-semibold text-xl">{props.title}</span>
         <span className="mt-1 text-gray-500">
-          {" "}
           {props.description}
         </span>
       </div>
