@@ -38,7 +38,7 @@ export default function SideView() {
           </a>
         </div>
       </div>
-      <div class="min-w-100 min-h-200">
+      <div className="min-w-100 min-h-200">
         <Image src={test}></Image>
       </div>
     </div>
