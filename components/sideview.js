@@ -1,23 +1,24 @@
-export default function SideView() {
+export default function SideView(props) {
   return (
-    <div className="grid md:grid-cols-2 max-w-screen-lg mx-auto mt-40 px-5 gap-5">
+    <div className="grid md:grid-cols-2 max-w-screen-lg mx-auto mt-10 px-5 gap-5">
       <div className="flex items-center flex-wrap">
         <div className="max-w-sm">
           <span className="text-violet-500 bg-violet-500/10 px-3 py-1 rounded-full text-xs uppercase font-medium tracking-wider">
-            Best plugin ever
+            Why us?
           </span>
           <h2 className="font-semibold text-2xl mt-3">
-            Derive your API experience using efficient manner.
+            Leave your web problems to us.
           </h2>
           <p className="mt-2 text-gray-500">
-            You can use this section to introduce your plugin with a
-            sample code block on the right side. This will be a
-            minimal implementation step.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>
           <a
             className="inline-flex items-center gap-2 border-b text-violet-500 text-sm mt-3 hover:border-violet-500"
             href="/docs">
-            <span>Read Docs</span>{" "}
+            <span>Learn more</span>
             <svg
               width="15"
               height="15"

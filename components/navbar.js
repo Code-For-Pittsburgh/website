@@ -27,7 +27,7 @@ export default function Navbar(props) {
         <Link href="/">
           <a className="flex">
             {/* `flex` class added to avoid spacing issues in image span */}
-            <Image src={Logo} alt="Sandocs" />
+            <>Code For Pittsburgh</>
           </a>
         </Link>
       </div>

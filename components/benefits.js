@@ -1,6 +1,6 @@
 function Benefits() {
   return (
-    <div className="grid md:grid-cols-3 max-w-screen-lg mx-auto gap-10 mt-10 px-5">
+    <div className="grid md:grid-cols-3 max-w-screen-lg mx-auto gap-10 mt-40  px-5">
       <div className="flex gap-4 items-start flex-col ">
         <span className="text-violet-600 bg-violet-500/10 p-3 rounded-full">
           <svg
@@ -18,10 +18,11 @@ function Benefits() {
           </svg>
         </span>
         <div>
-          <h3 className="font-semibold text-xl"> Expressive API</h3>
+          <h3 className="font-semibold text-xl">We know the stuff</h3>
           <p className="mt-1 text-gray-500">
-            You do not need to be an expert to use our plugin. Our
-            expressive API is readable and well documented.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua.
           </p>
         </div>
       </div>
@@ -44,8 +45,9 @@ function Benefits() {
         <div>
           <h3 className="font-semibold text-xl">Highly performant</h3>
           <p className="mt-1 text-gray-500">
-            You can make sure your website or app is highly performant
-            with a built-in system to help you optimize.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua.
           </p>
         </div>
       </div>
@@ -68,8 +70,9 @@ function Benefits() {
         <div>
           <h3 className="font-semibold text-xl">No dependencies </h3>
           <p className="mt-1 text-gray-500">
-            Our plugins do not have any external dependencies so our
-            plugin has the minimal footprint possible.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua.
           </p>
         </div>
       </div>
