@@ -4,25 +4,24 @@ export default function OneColShowHideFaq() {
   const data = [
     {
       id: 1,
-      question: "Is this component completely free to use?",
-      answer: "No, it should be purchased first."
+      question: "Are we free for non-profits?",
+      answer: "Yes we are"
     },
     {
       id: 2,
-      question: "Can I use it in a commercial project?",
-      answer: "Yes, once purchased, you can use it in any projects."
+      question: "What is the catch?",
+      answer: "There is no catch. We are free. No hidden fees."
     },
     {
       id: 3,
-      question: "What is your refund policy?",
-      answer:
-        "If you are unhappy with your purchase for any reason, email us within 90 days and we wll refund you in full, no questions asked."
+      question: "Is this for tax-write of purposes?",
+      answer: "no..."
     },
     {
       id: 4,
       question: "Do you offer technical support?",
       answer:
-        "No, we don't offer technical support for components. Please purchase a support plan to get 6 months of support."
+        "Yes we do offer technical support. But keep in mind we have very busy lives. Send us an email for us to get back to you."
     }
   ];
 

@@ -5,10 +5,10 @@ export default function Cta() {
         <div className="relative flex flex-wrap items-center justify-between w-full max-w-4xl gap-5 mx-auto overflow-hidden text-white bg-indigo-600 bg-gradient-to-r from-black to-black px-7 py-7 lg:px-12 lg:py-5 lg:flex-nowrap rounded-xl">
           <div className="relative z-0 flex-grow text-center lg:text-left">
             <h2 className="text-3xl font-medium lg:text-2xl">
-              Ready to try-out our product?
+              Ready to give us a try?
             </h2>
-            <p classNameName="mt-2 text-white text-opacity-80 lg:text-xl">
-              100% Satisfaction guaranteed.
+            <p className="mt-2 text-white text-opacity-80 lg:text-xl">
+              Satisfaction guaranteed.
             </p>
           </div>
           <div className="relative flex-shrink-0 w-full text-center lg:w-auto">
@@ -17,7 +17,7 @@ export default function Cta() {
               target="_blank"
               rel="noopener"
               className="inline-block py-3 mx-auto font-medium text-center text-black bg-white rounded-md sm:text-lg px-7 lg:px-10 lg:py-5">
-              Contact us today
+              Contact us
             </a>
           </div>
         </div>
