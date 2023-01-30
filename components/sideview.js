@@ -17,7 +17,7 @@ export default function SideView(props) {
           </p>
           <a
             className={`inline-flex items-center gap-2 border-b text-violet-500 text-sm mt-3 hover:border-violet-500`}
-            href="/">
+            href="https://www.linkedin.com/company/code-for-pittsburgh/">
             <span>{props.data.buttonText}</span>
             <svg
               width="15"
@@ -35,7 +35,7 @@ export default function SideView(props) {
         </div>
       </div>
       <div className="min-w-100 min-h-200">
-        <Image src={props.data.image}></Image>
+        <Image src={props.data.image} alt="image"></Image>
       </div>
     </div>
   );
