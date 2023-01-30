@@ -1,13 +1,17 @@
 const data = [
   {
     id: 1,
-    question: "Are we free for non-profits?",
-    answer: "Yes we are"
+    question:
+      "Who is eligible to receive a free website from the you?",
+    answer:
+      "Non-profit organizations with little to none online presence are eligible to receive a free website."
   },
   {
     id: 2,
-    question: "What is the catch?",
-    answer: "There is no catch. We are free. No hidden fees."
+    question:
+      "Do you provide training on how to use and manage the website",
+    answer:
+      "Yes, we provides training and support on how to use and manage the website."
   },
   {
     id: 3,
