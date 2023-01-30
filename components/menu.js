@@ -32,7 +32,9 @@ export default function MobileMenu(props) {
             leave="ease-in duration-200"
             leaveFrom="opacity-100"
             leaveTo="opacity-0">
-            <div className="fixed inset-0 bg-black bg-opacity-25" />
+            <div className="fixed inset-0 bg-black bg-opacity-25">
+              <h1>hello</h1>
+            </div>
           </Transition.Child>
 
           <div className="flex min-h-full ">

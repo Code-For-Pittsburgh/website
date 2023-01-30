@@ -6,18 +6,25 @@ import Features from "@components/features";
 import OurTech from "@components/ourtech";
 import Footer from "@components/footer";
 import VerticalTimeline from "@components/timeline";
+import Data from "@components/sideviewData";
+import Faq from "@components/faq";
+import Cta from "@components/cta";
 
 function App() {
   return (
     <div className="max-w-screen-xl mx-auto px-5">
       <Navbar />
       <Hero />
-      <SideView />
+      {Data.map((data, index) => (
+        <SideView key={index} data={data} />
+      ))}
       <Benefits />
-      <Benefits right={true} />
       <Features />
       <OurTech />
       <VerticalTimeline />
+      <Faq />
+      <Cta />
+
       <Footer />
     </div>
   );

@@ -32,7 +32,6 @@ const getObjectPath = path =>
     : ["subheadings"].concat(path.join(".subheadings.").split("."));
 
 const parseOutline = ast => {
-  // console.log(ast);
   const outline = { subheadings: [] };
   const headings = findHeadings(ast);
   const path = [];
