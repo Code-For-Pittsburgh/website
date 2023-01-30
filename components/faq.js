@@ -1,6 +1,6 @@
 import { Disclosure } from "@headlessui/react";
 
-export default function OneColShowHideFaq() {
+export default function Faq() {
   const data = [
     {
       id: 1,
