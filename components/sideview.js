@@ -1,28 +1,24 @@
 import Image from "next/image";
-import test from "../public/img/isotest.png";
 
-export default function SideView() {
+export default function SideView(props) {
   return (
     <div
       className={`grid min-h-300 md:grid-cols-2 max-w-screen-lg mx-auto mt-10 px-5 gap-5`}>
       <div className="flex items-center flex-wrap">
         <div className="max-w-sm">
           <span className="text-violet-500 bg-violet-500/10 px-3 py-1 rounded-full text-xs uppercase font-medium tracking-wider">
-            Why us?
+            {props.data.Label}
           </span>
           <h2 className="font-semibold text-2xl mt-3">
-            Leave your web problems to us.
+            {props.data.title}
           </h2>
           <p className="mt-2 text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            {props.data.description}
           </p>
           <a
             className={`inline-flex items-center gap-2 border-b text-violet-500 text-sm mt-3 hover:border-violet-500`}
-            href="/">
-            <span>Learn more</span>
+            href="https://www.linkedin.com/company/code-for-pittsburgh/">
+            <span>{props.data.buttonText}</span>
             <svg
               width="15"
               height="15"
@@ -39,7 +35,7 @@ export default function SideView() {
         </div>
       </div>
       <div className="min-w-100 min-h-200">
-        <Image src={test}></Image>
+        <Image src={props.data.image} alt="image"></Image>
       </div>
     </div>
   );

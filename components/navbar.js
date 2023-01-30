@@ -8,7 +8,6 @@ import {
   MoonIcon
 } from "@radix-ui/react-icons";
 import Link from "next/link";
-import MobileMenu from "./menu";
 
 export default function Navbar(props) {
   return (
@@ -21,9 +20,6 @@ export default function Navbar(props) {
         " flex items-center justify-between px-5 py-3  "
       )}>
       <div className="flex items-center gap-2">
-        <div className="md:hidden flex items-center">
-          <MobileMenu sidebar={props.sidebar} active={props.active} />
-        </div>
         <Link href="/">
           <a className="flex">
             {/* `flex` class added to avoid spacing issues in image span */}
