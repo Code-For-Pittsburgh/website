@@ -1,38 +1,13 @@
 import { Disclosure } from "@headlessui/react";
+import data from "./data/faqData";
 
 export default function Faq() {
-  const data = [
-    {
-      id: 1,
-      question: "Are we free for non-profits?",
-      answer: "Yes we are"
-    },
-    {
-      id: 2,
-      question: "What is the catch?",
-      answer: "There is no catch. We are free. No hidden fees."
-    },
-    {
-      id: 3,
-      question: "Is this for tax-write of purposes?",
-      answer: "no..."
-    },
-    {
-      id: 4,
-      question: "Do you offer technical support?",
-      answer:
-        "Yes we do offer technical support. But keep in mind we have very busy lives. Send us an email for us to get back to you."
-    }
-  ];
-
   return (
     <>
       <div className="py-5">
         <div className="text-center">
           <h2 className="font-semibold text-3xl">Our timeline</h2>
-          <p className="max-w-md mx-auto mt-2 text-gray-500">
-            Salem Witch trails fr😈
-          </p>
+          <p className="max-w-md mx-auto mt-2 text-gray-500">Faq</p>
         </div>
         <div className="container p-0 mx-auto xl:px-0">
           <div className="w-full max-w-2xl p-2 mx-auto rounded-2xl">

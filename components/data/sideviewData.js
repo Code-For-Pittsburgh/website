@@ -1,4 +1,4 @@
-import test from "../public/img/isotest.png";
+import test from "../../public/img/isotest.png";
 
 const Data = [
   {

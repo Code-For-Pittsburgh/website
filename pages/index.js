@@ -6,7 +6,7 @@ import Features from "@components/features";
 import OurTech from "@components/ourtech";
 import Footer from "@components/footer";
 import VerticalTimeline from "@components/timeline";
-import Data from "@components/sideviewData";
+import Data from "@components/data/sideviewData";
 import Faq from "@components/faq";
 import Cta from "@components/cta";
 
