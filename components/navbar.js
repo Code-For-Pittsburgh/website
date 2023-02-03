@@ -27,8 +27,20 @@ export default function Navbar(props) {
           </a>
         </Link>
       </div>
+
+      <div className="flex items-center gap-3">
+        <Link href="/partners">
+          <a className="flex">
+            {/* `flex` class added to avoid spacing issues in image span */}
+            <>Our Partners</>
+          </a>
+        </Link>
+      </div>
+
       <nav className="flex items-center gap-5">
-        <Link href="https://www.linkedin.com/company/code-for-pittsburgh/">
+        <Link href="https://www.linkedin.com/company/code-for-pittsburgh/"
+              target="_blank"
+              rel="noopener">
           <a className="hidden sm:inline-flex items-center gap-1 text-sm border-b text-slate-900 hover:text-violet-500 hover:border-violet-200 focus-visible:bg-violet-100 focus-visible:border-violet-100 focus-visible:outline-4 focus-visible:outline-violet-100">
             LinkedIn
           </a>
