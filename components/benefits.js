@@ -20,7 +20,8 @@ function Benefits() {
         <div>
           <h3 className="font-semibold text-xl">We know the stuff</h3>
           <p className="mt-1 text-gray-500">
-            We use the latest, most powerful technologies in all of our builds so you can have a clean, customizable, interactive website. 
+            We use the latest, 
+            most powerful technologies in all of our builds so you can have a clean, customizable, interactive website. 
           </p>
         </div>
       </div>

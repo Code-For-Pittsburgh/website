@@ -17,7 +17,8 @@ export default function SideView(props) {
           </p>
           <a
             className={`inline-flex items-center gap-2 border-b text-violet-500 text-sm mt-3 hover:border-violet-500`}
-            href="https://www.linkedin.com/company/code-for-pittsburgh/">
+            href="https://www.linkedin.com/company/code-for-pittsburgh/" >
+            
             <span>{props.data.buttonText}</span>
             <svg
               width="15"
