@@ -44,7 +44,7 @@ function Benefits() {
           <h3 className="font-semibold text-xl">Creative freedom</h3>
           <p className="mt-1 text-gray-500">
           With every product, we strive to allow our users to have complete creative 
-          freedom in any content they want to create. You shouldn't be limited by code.  
+          freedom in any content they want to create. You shouldn&apos;t be limited by code.  
           </p>
         </div>
       </div>
@@ -67,9 +67,9 @@ function Benefits() {
         <div>
           <h3 className="font-semibold text-xl">Easy for you</h3>
           <p className="mt-1 text-gray-500">
-            You're not the programmer, we are! We design our websites 
+            You&apos;re not the programmer, we are! We design our websites 
             with intuitive design principles so you can keep doing 
-            what you're best at.
+            what you&apos;re best at.
           </p>
         </div>
       </div>

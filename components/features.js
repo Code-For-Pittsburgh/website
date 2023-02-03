@@ -29,7 +29,7 @@ export default function Features() {
           <div>
             <h3 className="font-semibold text-xl">Customizable</h3>
             <p className="mt-1 text-gray-500">
-              Got an idea? Let us know! We'll work together to make it happen
+              Got an idea? Let us know! We&apos;ll work together to make it happen
             </p>
           </div>
         </div>
@@ -54,7 +54,7 @@ export default function Features() {
               Creative Freedom
             </h3>
             <p className="mt-1 text-gray-500">
-              With us, you're not limited to generalized website templates. 
+              With us, you&apos;re not limited to generalized website templates. 
             </p>
           </div>
         </div>
@@ -79,7 +79,7 @@ export default function Features() {
               Developer Support
             </h3>
             <p className="mt-1 text-gray-500">
-              Got a question? Need a solution? We'll be here to help every step of the way.
+              Got a question? Need a solution? We&apos;ll be here to help every step of the way.
             </p>
           </div>
         </div>
@@ -150,8 +150,8 @@ export default function Features() {
           <div>
             <h3 className="font-semibold text-xl">Free to you</h3>
             <p className="mt-1 text-gray-500">
-              Best of all, no cost to you! That's right, our services cost
-              a whopping $0.00. We're looking to help, not to profit. 
+              Best of all, no cost to you! That&apos;s right, our services cost
+              a whopping $0.00. We&apos;re looking to help, not to profit. 
             </p>
           </div>
         </div>

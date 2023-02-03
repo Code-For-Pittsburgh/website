@@ -7,7 +7,7 @@ export default function VerticalTimeline() {
         <div className="text-center">
           <h2 className="font-semibold text-3xl">Our Story</h2>
           <p className="max-w-md mx-auto mt-2 text-gray-500">
-            How we started and where we're going
+            How we started and where we&apos;re going
           </p>
         </div>
         <div className="relative max-w-xl mx-auto my-16 lg:max-w-3xl before:absolute before:top-0 before:w-0.5 before:h-full before:left-2 before:bg-gray-400 lg:before:left-1/2">
