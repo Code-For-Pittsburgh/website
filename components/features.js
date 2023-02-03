@@ -6,8 +6,7 @@ export default function Features() {
           Features you will love
         </h2>
         <p className="max-w-md mx-auto mt-2 text-gray-500">
-          A responsive documentation template built for everyone who
-          wants to create a plugin.
+          A free service to help give back to those who give
         </p>
       </div>
       <div className="grid md:grid-cols-2 gap-10 mt-10">
@@ -30,8 +29,7 @@ export default function Features() {
           <div>
             <h3 className="font-semibold text-xl">Customizable</h3>
             <p className="mt-1 text-gray-500">
-              You do not need to be an expert to customize this
-              plugin. Our code is very readable and well documented.
+              Got an idea? Let us know! We'll work together to make it happen
             </p>
           </div>
         </div>
@@ -53,12 +51,10 @@ export default function Features() {
           </span>
           <div>
             <h3 className="font-semibold text-xl">
-              Fully Responsive
+              Creative Freedom
             </h3>
             <p className="mt-1 text-gray-500">
-              With mobile, tablet &amp; desktop support,it does not
-              matter what device you are using. This plugin is
-              responsive in all browsers.
+              With us, you're not limited to generalized website templates. 
             </p>
           </div>
         </div>
@@ -83,9 +79,7 @@ export default function Features() {
               Developer Support
             </h3>
             <p className="mt-1 text-gray-500">
-              Our plugins are supported by sponsors who provide
-              community support. Sponsors will get email support on
-              weekdays.
+              Got a question? Need a solution? We'll be here to help every step of the way.
             </p>
           </div>
         </div>
@@ -106,11 +100,10 @@ export default function Features() {
             </svg>
           </span>
           <div>
-            <h3 className="font-semibold text-xl">Cross Browser</h3>
+            <h3 className="font-semibold text-xl">Sleek design</h3>
             <p className="mt-1 text-gray-500">
-              We make sure our plugins are working perfectly with all
-              modern browsers available such as Chrome, Firefox,
-              Safari.
+              We make sure our (and your) websites are working perfectly with all
+              modern browsers on all different devices. 
             </p>
           </div>
         </div>
@@ -133,9 +126,8 @@ export default function Features() {
           <div>
             <h3 className="font-semibold text-xl">Clean Code</h3>
             <p className="mt-1 text-gray-500">
-              We strictly follow a set of guidelines along with unit
-              tests to make sure your implementation as easy as
-              possible.
+              We strictly follow strict design principles guidelines 
+              along to make your implementation as easy as possible.
             </p>
           </div>
         </div>
@@ -156,11 +148,10 @@ export default function Features() {
             </svg>
           </span>
           <div>
-            <h3 className="font-semibold text-xl">Well Maintained</h3>
+            <h3 className="font-semibold text-xl">Free to you</h3>
             <p className="mt-1 text-gray-500">
-              This templatte is actively maintained by the core plugin
-              team. We are working on fixing each of the issues
-              reported.
+              Best of all, no cost to you! That's right, our services cost
+              a whopping $0.00. We're looking to help, not to profit. 
             </p>
           </div>
         </div>
