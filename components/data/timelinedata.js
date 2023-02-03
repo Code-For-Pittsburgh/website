@@ -1,8 +1,7 @@
 const data = [
   {
-    date: "March 1st, 1692",
-    title:
-      "Tituba, Sarah Osborne and Sarah Good are taken for questioning",
+    date: "March 30th, 2022",
+    title: "Project Code for Pittsburgh is initiated",
     description:
       "Simon Bradstreet becomes governor of Massachusetts Bay Colony. Bridget Bishop of Salem Village is accused of witchcraft, but the Rev. John Hale testifies for her and the charges are dropped."
   },
