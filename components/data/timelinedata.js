@@ -1,23 +1,23 @@
 const data = [
   {
-    date: "March 1st, 1692",
+    date: "January 18th, 2023",
     title:
-      "Tituba, Sarah Osborne and Sarah Good are taken for questioning",
+      "Just an idea",
     description:
-      "Simon Bradstreet becomes governor of Massachusetts Bay Colony. Bridget Bishop of Salem Village is accused of witchcraft, but the Rev. John Hale testifies for her and the charges are dropped."
+      "Sitting in a dimly lit bedroom which served as their coding lab, Derek and Bek came up with the idea to create Code for Pittsburgh, a foundation dedicated to helping the Pittsburgh community. From this idea, Code for Pittsburgh was born."
   },
   {
-    date: "March 2nd, 1692",
-    title: "Sarah Good is jailed at the Ipswich jail",
+    date: "January 28th, 2023",
+    title: "Our first partner",
     description:
-      "Sarah Osborne and Tituba are questioned further. Tituba adds more details to her confession, and Sarah Osborne maintains her innocence."
+      "Here, we made contact with our first partner - Taylor Alderdice School Newspaper. Together, we're going to help inform, enlighten, educate, and entertain the Taylor Alderdice community. This is just the start of a long relationship."
   },
   {
-    date: "March 10th, 1692",
+    date: "February 10th, 2023",
     title:
-      "Mary Warren, a servant in the home of Elizabeth and John Proctor, begins having fits like the other girls. ",
+      "Idea to reality",
     description:
-      " She tells John Proctor she had seen the specter of Giles Corey, a local and prosperous farmer, but he dismisses her report."
+      "In just a few weeks from the initial concept, Code for Pittsburgh made its first contribution and sent our first project into production with the creation of www.dragonbreath.com showcasing the literary talents of a Pittsburgh Public School via this public forum."
   }
 ];
 
