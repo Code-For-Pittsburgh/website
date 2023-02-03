@@ -6,8 +6,8 @@ export default function Faq() {
     <>
       <div className="py-5">
         <div className="text-center">
-          <h2 className="font-semibold text-3xl">Our timeline</h2>
-          <p className="max-w-md mx-auto mt-2 text-gray-500">Faq</p>
+          <h2 className="font-semibold text-3xl">Frequently Asked Questions</h2>
+          <p id="- - - EMPTY - - -" className="max-w-md mx-auto mt-2 text-gray-500"></p> 
         </div>
         <div className="container p-0 mx-auto xl:px-0">
           <div className="w-full max-w-2xl p-2 mx-auto rounded-2xl">
