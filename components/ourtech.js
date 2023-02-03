@@ -3,9 +3,9 @@ export default function OurTech() {
     <div className="max-w-3xl mx-auto px-5 mt-28">
       <div className="flex flex-col justify-center">
         <div className="text-center">
-          <h2 className="font-semibold text-3xl">We use the best</h2>
+          <h2 className="font-semibold text-3xl">Only the best</h2>
           <p className="max-w-md mx-auto mt-2 text-gray-500">
-            We use the latest frameworks to ensure you stay ahead.
+            We use the latest, most poweful technologies so you can stay focussed on what you do best.
           </p>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-10 mt-2 md:justify-around">
