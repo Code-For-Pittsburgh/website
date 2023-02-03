@@ -20,9 +20,7 @@ function Benefits() {
         <div>
           <h3 className="font-semibold text-xl">We know the stuff</h3>
           <p className="mt-1 text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua.
+            We use the latest, most powerful technologies in all of our builds so you can have a clean, customizable, interactive website. 
           </p>
         </div>
       </div>
@@ -43,11 +41,10 @@ function Benefits() {
           </svg>
         </span>
         <div>
-          <h3 className="font-semibold text-xl">Highly performant</h3>
+          <h3 className="font-semibold text-xl">Creative freedom</h3>
           <p className="mt-1 text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua.
+          With every product, we strive to allow our users to have complete creative 
+          freedom in any content they want to create. You shouldn't be limited by code.  
           </p>
         </div>
       </div>
@@ -68,11 +65,11 @@ function Benefits() {
           </svg>
         </span>
         <div>
-          <h3 className="font-semibold text-xl">No dependencies </h3>
+          <h3 className="font-semibold text-xl">Easy for you</h3>
           <p className="mt-1 text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua.
+            You're not the programmer, we are! We design our websites 
+            with intuitive design principles so you can keep doing 
+            what you're best at.
           </p>
         </div>
       </div>
