@@ -20,8 +20,7 @@ export default function Hero(props) {
         Code for Pittsburgh
       </h1>
       <p className="mt-3 text-gray-500 md:text-lg">
-        Powered by the latest &amp; most powerful technolgoes, you
-        know you are in good hands
+        Looking to give back to the Pittsburgh community through code
       </p>
       <div className="flex justify-center flex-col md:flex-row mt-5 gap-3">
         <a
