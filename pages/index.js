@@ -9,6 +9,7 @@ import VerticalTimeline from "@components/timeline";
 import Data from "@components/data/sideviewData";
 import Faq from "@components/faq";
 import Cta from "@components/cta";
+import AboutUs from "@components/aboutus";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       {Data.map((data, index) => (
         <SideView key={index} data={data} />
       ))}
+      <AboutUs />
       <Benefits />
       <Features />
       <OurTech />
