@@ -10,7 +10,7 @@ export default function Hero() {
             New
           </span>
           <span className="text-sm font-medium">
-            Flowbite is out! See what&apos;s new
+            Code for Pittsburgh is out! See what&apos;s new
           </span>
           <svg
             className="ml-2 w-5 h-5"
