@@ -1,8 +1,7 @@
 const data = [
   {
     date: "January 18th, 2023",
-    title:
-      "Just an idea",
+    title: "Just an idea",
     description:
       "Sitting in a dimly lit bedroom which served as their coding lab, Derek and Bek came up with the idea to create Code for Pittsburgh, a foundation dedicated to helping the Pittsburgh community. From this idea, Code for Pittsburgh was born."
   },
@@ -14,8 +13,7 @@ const data = [
   },
   {
     date: "February 10th, 2023",
-    title:
-      "Idea to reality",
+    title: "Idea to reality",
     description:
       "In just a few weeks from the initial concept, Code for Pittsburgh made its first contribution and sent our first project into production with the creation of www.dragonbreath.com showcasing the literary talents of a Pittsburgh Public School via this public forum."
   }
