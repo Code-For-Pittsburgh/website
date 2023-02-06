@@ -7,11 +7,9 @@ export default function Navbar() {
     <header>
       <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900">
         <div className="container flex flex-wrap items-center justify-between mx-auto">
-          <a
-            href="https://flowbite.com/"
-            className="flex items-center">
+          <a href="/" className="flex items-center">
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
+              src="https://media.licdn.com/dms/image/C560BAQEJQYosBL-iKQ/company-logo_200_200/0/1674796096583?e=1683763200&v=beta&t=MjeJ1qdHUWUz7qHtCsvx7N8jSg6Cs9F-1vrPLD9m6z4"
               className="h-6 mr-3 sm:h-9"
               alt="Flowbite Logo"
             />
