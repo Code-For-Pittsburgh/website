@@ -4,7 +4,6 @@ import Features from "@components/features";
 import Footer from "@components/footer";
 import Cta from "@components/cta";
 import VerticalTimeline from "@components/timeline";
-import Content from "@components/content";
 import Customers from "@components/customers";
 import Stats from "@components/stats";
 import Teams from "@components/Team";
@@ -17,12 +16,9 @@ function App() {
       <Cta side="left" />
       <Customers />
       <Teams />
-
       <Features />
       <Stats />
-
       <VerticalTimeline />
-
       <Footer />
     </div>
   );
