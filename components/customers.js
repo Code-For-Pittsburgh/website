@@ -4,11 +4,13 @@ export default function Customers() {
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
           <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-            Our Blog
+            Our Customers
           </h2>
           <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
-            We use an agile approach to test assumptions and connect
-            with the needs of your audience early and often.
+            Whether you are a small non-profit just starting out or a
+            well-established organization looking for a new website,
+            we are here to help. Let&aspos;s work together to make a
+            positive impact on the world.
           </p>
         </div>
         <div className="grid gap-8 lg:grid-cols-2">
@@ -22,7 +24,7 @@ export default function Customers() {
                   xmlns="http://www.w3.org/2000/svg">
                   <path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"></path>
                 </svg>
-                Tutorial
+                Testimonal
               </span>
               <span className="text-sm">14 days ago</span>
             </div>
@@ -77,7 +79,7 @@ export default function Customers() {
                     clipRule="evenodd"></path>
                   <path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path>
                 </svg>
-                Article
+                Testimonal
               </span>
               <span className="text-sm">14 days ago</span>
             </div>
