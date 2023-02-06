@@ -1,28 +1,33 @@
 const data = [
   {
     id: 1,
-    question:
-      "Who is eligible to receive a free website from the you?",
+    question: "Why do we do this?",
     answer:
-      "Non-profit organizations with little to none online presence are eligible to receive a free website."
+      "Being from Pittsburgh, we've benefited a lot from what this community has given to us. It's time we do the same."
   },
   {
     id: 2,
-    question:
-      "Do you provide training on how to use and manage the website",
+    question: "Who do we work with?",
     answer:
-      "Yes, we provides training and support on how to use and manage the website."
+      "Any member or organization from the Pittsburgh community who is looking to make good in the world. Want to work with us? Check out our application."
   },
   {
     id: 3,
-    question: "Is this for tax-write of purposes?",
-    answer: "no..."
+    question: "I don't know how to build a website. Is this be ok?",
+    answer: "Of course! Check out our application."
   },
   {
     id: 4,
-    question: "Do you offer technical support?",
+    question:
+      "I've got a complicated idea. Can we still work together?",
     answer:
-      "Yes we do offer technical support. But keep in mind we have very busy lives. Send us an email for us to get back to you."
+      "If you've got an idea you want, we'll work with you to try and make it happen. Don't hold back! Put our skills to the test."
+  },
+  {
+    id: 5,
+    question: "Do you make more than websites?",
+    answer:
+      "Our primary product is websites, but depending on what you`re looking to do we can try and make something work. Let us know! Check out our application."
   }
 ];
 

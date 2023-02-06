@@ -1,29 +1,27 @@
 import Navbar from "@components/navbar";
 import Hero from "@components/hero";
-import Benefits from "@components/benefits";
-import SideView from "@components/sideview";
 import Features from "@components/features";
-import OurTech from "@components/ourtech";
 import Footer from "@components/footer";
-import VerticalTimeline from "@components/timeline";
-import Data from "@components/data/sideviewData";
-import Faq from "@components/faq";
 import Cta from "@components/cta";
+import VerticalTimeline from "@components/timeline";
+import Content from "@components/content";
+import Customers from "@components/customers";
+import Stats from "@components/stats";
+import Teams from "@components/Team";
 
 function App() {
   return (
-    <div className="max-w-screen-xl mx-auto px-5">
+    <div>
       <Navbar />
-      <Hero />
-      {Data.map((data, index) => (
-        <SideView key={index} data={data} />
-      ))}
-      <Benefits />
+      <Hero side="right" />
+      <Cta side="left" />
+      <Customers />
+      <Teams />
+
       <Features />
-      <OurTech />
+      <Stats />
+
       <VerticalTimeline />
-      <Faq />
-      <Cta />
 
       <Footer />
     </div>
