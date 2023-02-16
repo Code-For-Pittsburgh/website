@@ -20,31 +20,11 @@ export default function Teams() {
                 <a
                   aria-label="Open github"
                   role="link"
-                  href="javascript:void(0)"
+                  href="https://github.com/Asilbec"
                   className="mx-2">
                   <img
                     src="https://tuk-cdn.s3.amazonaws.com/can-uploader/white-bg-with-description-svg1.svg"
                     alt="github"
-                  />
-                </a>
-                <a
-                  aria-label="Open twitter"
-                  role="link"
-                  href="javascript:void(0)"
-                  className="mx-2">
-                  <img
-                    src="https://tuk-cdn.s3.amazonaws.com/can-uploader/white-bg-with-description-svg2.svg"
-                    alt="twiter"
-                  />
-                </a>
-                <a
-                  aria-label="Open instagram"
-                  role="link"
-                  href="javascript:void(0)"
-                  className="mx-2">
-                  <img
-                    src="https://tuk-cdn.s3.amazonaws.com/can-uploader/white-bg-with-description-svg3.svg"
-                    alt="instagram"
                   />
                 </a>
               </div>
@@ -73,40 +53,20 @@ export default function Teams() {
                 <a
                   aria-label="Open github"
                   role="link"
-                  href="javascript:void(0)"
+                  href="https://github.com/raphael2G"
                   className="mx-2">
                   <img
                     src="https://tuk-cdn.s3.amazonaws.com/can-uploader/white-bg-with-description-svg1.svg"
                     alt="github"
                   />
                 </a>
-                <a
-                  aria-label="Open twitter"
-                  role="link"
-                  href="javascript:void(0)"
-                  className="mx-2">
-                  <img
-                    src="https://tuk-cdn.s3.amazonaws.com/can-uploader/white-bg-with-description-svg2.svg"
-                    alt="twitter"
-                  />
-                </a>
-                <a
-                  aria-label="Open instagram"
-                  role="link"
-                  href="javascript:void(0)"
-                  className="mx-2">
-                  <img
-                    src="https://tuk-cdn.s3.amazonaws.com/can-uploader/white-bg-with-description-svg3.svg"
-                    alt="instagram"
-                  />
-                </a>
               </div>
             </div>
             <p className="text-base text-gray-600 dark:text-gray-200 pb-3">
-              developer
+              Developer
             </p>
             <p className="text-sm text-gray-600 dark:text-gray-200 leading-6 font-normal">
-              developer
+              Developer
             </p>
           </div>
         </div>
