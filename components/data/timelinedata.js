@@ -15,7 +15,7 @@ const data = [
     date: "February 10th, 2023",
     title: "Idea to reality",
     description:
-      "In just a few weeks from the initial concept, Code for Pittsburgh made its first contribution and sent our first project into production with the creation of www.dragonbreath.com showcasing the literary talents of a Pittsburgh Public School via this public forum."
+      "In just a few weeks from the initial concept, Code for Pittsburgh made its first contribution and sent www.allderdicedragonbreath.com into production. Showcasing the literary talents of a Pittsburgh Public School, Taylor Allderdice's Student-led newspaper's new website can now be seen by the masses."
   }
 ];
 

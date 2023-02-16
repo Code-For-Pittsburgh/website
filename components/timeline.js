@@ -9,7 +9,7 @@ export default function VerticalTimeline() {
             Our timeline
           </h2>
           <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
-            How we started and where we&aspos;re going
+            How we started and where we&apos;re going
           </p>
         </div>
         <div className="relative max-w-xl mx-auto my-16 lg:max-w-3xl before:absolute before:top-0 before:w-0.5 before:h-full before:left-2 before:bg-gray-800 lg:before:left-1/2">

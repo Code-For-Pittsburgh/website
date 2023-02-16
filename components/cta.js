@@ -7,8 +7,8 @@ export default function Cta() {
             Tech is hard
           </h2>
           <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
-            If you&aspos;re into dealing with complicated frame works,
-            hidden errors, and version control, then we&aspos;re not
+            If you&apos;re into dealing with complicated frame works,
+            hidden errors, and version control, then we&apos;re not
             for you. Let us handle the annoying code so you can focus
             on what you do best.
           </p>
