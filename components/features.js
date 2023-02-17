@@ -17,12 +17,11 @@ export default function Features() {
               </svg>
             </div>
             <h3 className="mb-2 text-xl font-bold dark:text-white">
-              Marketing
+              Blogs
             </h3>
             <p className="text-gray-500 dark:text-gray-400">
-              Plan it, create it, launch it. Collaborate seamlessly
-              with all the organization and hit your marketing goals
-              every month with our marketing plan.
+              Maybe you&apos;re the creative type and have some articles, photos, or some media you want to share. 
+              In need of a website? We can make that happen
             </p>
           </div>
           <div>
@@ -36,12 +35,11 @@ export default function Features() {
               </svg>
             </div>
             <h3 className="mb-2 text-xl font-bold dark:text-white">
-              Legal
+              Stores
             </h3>
             <p className="text-gray-500 dark:text-gray-400">
-              Protect your organization, devices and stay compliant
-              with our structured workflows and custom permissions
-              made for you.
+              Are you a local business looking to overhaul your ecommerce website? Or maybe an individual trying to turn
+              your passion into a business. We can help with that too. 
             </p>
           </div>
           <div>
@@ -59,11 +57,11 @@ export default function Features() {
               </svg>
             </div>
             <h3 className="mb-2 text-xl font-bold dark:text-white">
-              Finance
+              More!
             </h3>
             <p className="text-gray-500 dark:text-gray-400">
-              Audit-proof software built for critical financial
-              operations like month-end close and quarterly budgeting.
+              Or maybe you&apos;ve got something else in mind...  We&apos;ll work together to make it happen. 
+              If you&apos;re looking to partner up, let us know!
             </p>
           </div>
         </div>

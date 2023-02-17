@@ -30,10 +30,10 @@ export default function Teams() {
               </div>
             </div>
             <p className="text-base text-gray-600 dark:text-gray-200 pb-3">
-              Developer
+              Lead Designer
             </p>
             <p className="text-sm text-gray-600 dark:text-gray-200 leading-6 font-normal">
-              Developer
+              Software Developer
             </p>
           </div>
           <div className="xl:w-4/12 lg:w-2/4 md:w-2/5 sm:w-2/5 mx-4 max-w-sm mb-8 border-b border-gray-300 dark:border-gray-700 pb-6">
@@ -63,10 +63,10 @@ export default function Teams() {
               </div>
             </div>
             <p className="text-base text-gray-600 dark:text-gray-200 pb-3">
-              Developer
+              Head of Operations
             </p>
             <p className="text-sm text-gray-600 dark:text-gray-200 leading-6 font-normal">
-              Developer
+              Software Developer
             </p>
           </div>
         </div>

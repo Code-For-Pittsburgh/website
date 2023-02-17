@@ -1,5 +1,6 @@
 import Navbar from "@components/navbar";
 import Hero from "@components/hero";
+import AboutUs from "@components/aboutus";
 import PoweredBy from "@components/poweredBy";
 import Features from "@components/features";
 import Footer from "@components/footer";
@@ -13,12 +14,13 @@ function App() {
     <div>
       <Navbar />
       <Hero side="right" />
-      {/* <PoweredBy /> */}
+      <AboutUs/>
       <Cta side="left" />
-      <Teams />
       <Features />
-      <Stats />
       <VerticalTimeline />
+      {/* <PoweredBy /> */}
+      <Teams />
+      <Stats />
       <Footer />
     </div>
   );
