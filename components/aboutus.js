@@ -1,4 +1,4 @@
-import img from "../public/AllderdiceDragonBreath.png";
+import img from "../public/img/BetterLogo.png";
 
 export default function AboutUs() {
     return (
@@ -41,7 +41,7 @@ export default function AboutUs() {
                 <div>
                     <img
                     className="w-full"
-                    src="/public/AllderdiceDragonBreath.png"
+                    // src={/* current issue with importing images */}
                     alt="dashboard image"
                     />
                 </div>
