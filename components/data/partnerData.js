@@ -1,18 +1,18 @@
 const data = [
     {
-      name: "Taylor Allderdice Studnet-Led Newspaper",
+      name: "Taylor Allderdice Student-led Newspaper",
+      url: "https://www.allderdicedragonbreath.com",
       date: "February 10th, 2023",
-      description: "With our hands tied, it was the only thing I codl resort to. Brute force. Frantically, I began typing as if my life depended on it, because it did. I knew that if i could not crack the secret code, not only me, but everyone I knew would be killed.",
-      src: "https://images.pexels.com/photos/3879060/pexels-photo-3879060.jpeg?cs=srgb&dl=pexels-alex-azabache-3879060.jpg&fm=jpg",
-      url: "www.goofyland.com"
+      description: 
+        "Teaming up with Taylor Allderdice's Student-led newspaper, we created a revamped website to showcase their creative and informative talents with the masses. In the future, we're looking to implement an arts portfolio to showcase their photography.",
+      url2: "allderdicedragonbreath.com"
     },
-
     {
         name: "Next Partner",
+        url: "www.goofy.com",
         date: "February 20th, 2023",
-        description: "",
-        src: "", 
-        url: ""
+        description: " ",
+        url2: " ", 
       },
   ];
 
