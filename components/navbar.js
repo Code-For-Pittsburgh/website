@@ -4,8 +4,8 @@ export default function Navbar() {
   const [isShowing, setIsShowing] = useState(false);
 
   return (
-    <header>
-      <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900">
+    <header >
+      <nav className="scroll-smooth bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900">
         <div className="container flex flex-wrap items-center justify-between mx-auto">
           <a href="/" className="flex items-center">
             <img
