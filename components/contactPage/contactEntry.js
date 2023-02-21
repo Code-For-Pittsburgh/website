@@ -30,7 +30,7 @@ export default function ContactEntry(){
                 <div className="flex flex-col justify-between h-full">
                 <div className="mb-6 md:max-w-md block">
                     <p className="mb-4 text-sm text-indigo-600 font-bold uppercase tracking-px">Contact us</p>
-                    <h2 className="text-2xl; md:text-4xl xl:text-6xl font-bold font-heading tracking-px-n leading-none">It's time to let us work for you</h2>
+                    <h2 className="text-2xl; md:text-4xl xl:text-6xl font-bold font-heading tracking-px-n leading-none">It&apos;s time to let us work for you</h2>
                 </div>
                 <div className="block">
                     <p className="mb-2 text-sm text-gray-400 font-bold uppercase tracking-px">Email</p>
