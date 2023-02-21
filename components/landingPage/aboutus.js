@@ -41,7 +41,7 @@ export default function AboutUs() {
                 <div>
                     <img
                     className="w-full"
-                    // src={/* current issue with importing images */}
+                    src="/img/isotest.png"
                     alt="dashboard image"
                     />
                 </div>
