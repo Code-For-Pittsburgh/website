@@ -4,7 +4,8 @@ html{
 } */
 
 html{
-  background-color: white    
+  background-color: white;
+  scroll-behavior: smooth;
   }
 
 @tailwind base;
