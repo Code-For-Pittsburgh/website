@@ -10,14 +10,12 @@ export default function AboutUs() {
                     </h2>
                     <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
                     We help those when it comes to anything requiring code. Whether that&apos;s a new website, 
-                    event automation, data analysis, or something even more niche. But we&apos;re not for profit. 
-                    Instead, we choose to work with those in the community who give back to the community. Think teacher, 
-                    fire fighter, law enforcement, doctor, nurse, charity or similar. We don&apos;t want to simply give, 
-                    but give back to those who give. 
+                    event automation, data analysis, or something even more niche. However, we&apos;re not for just any work. 
+                    As a non-profit, we&apos;re very selective with who we work with. We&apos;re trying to give back to those who give.
                     </p>
 
                     <a
-                    href="#"
+                    href="/contact"
                     className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
                     role="alert">
                     <span className="text-md bg-primary-600 rounded-full text-white px-4 py-1.5 mr-3">
