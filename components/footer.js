@@ -8,12 +8,12 @@ export default function Footer() {
               href="https://flowbite.com"
               className="flex items-center">
               <img
-                src="https://flowbite.com/docs/images/logo.svg"
+                src="https://media.licdn.com/dms/image/C560BAQEJQYosBL-iKQ/company-logo_200_200/0/1674796096583?e=1683763200&v=beta&t=MjeJ1qdHUWUz7qHtCsvx7N8jSg6Cs9F-1vrPLD9m6z4"
                 className="mr-3 h-8"
                 alt="FlowBite Logo"
               />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                Flowbite
+              Code for Pittsburgh
               </span>
             </a>
           </div>
@@ -27,7 +27,7 @@ export default function Footer() {
                   <a
                     href="https://flowbite.com"
                     className="hover:underline">
-                    Flowbite
+                    Code for Pittsburgh
                   </a>
                 </li>
                 <li>
@@ -46,21 +46,21 @@ export default function Footer() {
               <ul className="text-gray-600 dark:text-gray-400">
                 <li className="mb-4">
                   <a
-                    href="https://github.com/themesberg/flowbite"
+                    href="https://github.com/themesberg/raphael2G"
                     className="hover:underline ">
                     Github
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="https://discord.gg/4eeurUVvTy"
                     className="hover:underline">
                     Discord
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
-            <div>
+            {/* <div>
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Legal
               </h2>
@@ -76,7 +76,7 @@ export default function Footer() {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
