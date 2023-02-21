@@ -30,7 +30,7 @@ export default function VerticalTimeline() {
                     ? "lg:text-left lg:ml-5 "
                     : "lg:text-right lg:pr-10"
                 }`}>
-                <h4 className="mt-4 text-l text-white lg:mt-0">
+                <h4 className="mt-4 text-l text-gray-700 dark:text-white lg:mt-0">
                   {item.title}
                 </h4>
                 {item.description && (
