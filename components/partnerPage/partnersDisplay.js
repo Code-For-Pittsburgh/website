@@ -1,6 +1,6 @@
 import data from "../data/partnerData";
 
-export default function TaylorAllderdice() {
+export default function PartnersDisplay() {
     return (
         <section className="py-24 bg-white dark:bg-gray-900 overflow-hidden">
         <div className="container px-4 mx-auto">

@@ -3,13 +3,13 @@ import Footer from "@components/footer";
 
 // Page Specific Imports
 import Hero from "@components/partnerPage/hero";
-import TaylorAllderdice from "@components/partnerPage/taylorAllderdice";
+import PartnersDisplay from "@components/partnerPage/partnersDisplay";
 
 export default function Partners(){
     return(
         <>
             <Navbar />
-            <TaylorAllderdice />
+            <PartnersDisplay />
             <Footer />
         </>
     )
