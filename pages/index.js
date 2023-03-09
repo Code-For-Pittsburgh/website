@@ -8,14 +8,23 @@ import Cta from "@components/landingPage/cta";
 import VerticalTimeline from "@components/landingPage/timeline";
 import Stats from "@components/landingPage/stats";
 import Teams from "@components/landingPage/Team";
+import LogoCloud from "@components/landingPage/LogoCloud";
+import SmallBanner from "@components/landingPage/smallbanner";
+import Pricing from "@components/landingPage/Pricing";
+import Resources from "@components/landingPage/Resources";
 
 function App() {
   return (
     <>
+      <SmallBanner />
       <Navbar />
       <Hero side="right" />
-      <AboutUs/>
-      <Cta side="left" />
+      <LogoCloud />
+
+      <AboutUs />
+      <Pricing />
+      <Resources />
+
       <Features />
       <VerticalTimeline />
       {/* <PoweredBy /> */}

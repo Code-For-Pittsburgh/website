@@ -1,51 +1,73 @@
-import img from "../../public/img/BetterLogo.png";
+import {
+  CloudArrowUpIcon,
+  LockClosedIcon,
+  ServerIcon
+} from "@heroicons/react/20/solid";
+
+const features = [
+  {
+    name: "Push to deploy.",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+    icon: CloudArrowUpIcon
+  },
+  {
+    name: "SSL certificates.",
+    description:
+      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
+    icon: LockClosedIcon
+  },
+  {
+    name: "Database backups.",
+    description:
+      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    icon: ServerIcon
+  }
+];
 
 export default function AboutUs() {
-    return (
-        <section id="about" className="bg-white dark:bg-gray-900">
-             <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-                <div className="mt-4 md:mt-0"> 
-                    <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-                    What we do
-                    </h2>
-                    <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
-                    We help those when it comes to anything requiring code. Whether that&apos;s a new website, 
-                    event automation, data analysis, or something even more niche. However, we&apos;re not for just any work. 
-                    As a non-profit, we&apos;re very selective with who we work with. We&apos;re trying to give back to those who give.
-                    </p>
-
-                    <a
-                    href="/contact"
-                    className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
-                    role="alert">
-                    <span className="text-md bg-primary-600 rounded-full text-white px-4 py-1.5 mr-3">
-                        Looking to partner up? 
-                    </span>
-                    <span className="text-sm font-medium">
-                        Let us know!
-                    </span>
-                    <svg
-                        className="ml-2 w-5 h-5"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                        fillRule="evenodd"
-                        d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                        clipRule="evenodd"></path>
-                    </svg>
-                    </a>
-                </div>
-                <div>
-                    <img
-                    className="w-full"
-                    src="/img/isotest.png"
-                    alt="dashboard image"
-                    />
-                </div>
+  return (
+    <div className="overflow-hidden bg-white py-24 sm:py-32">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+          <div className="lg:pr-8 lg:pt-4">
+            <div className="lg:max-w-lg">
+              <h2 className="text-base font-semibold leading-7 text-indigo-600">
+                Deploy faster
+              </h2>
+              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                A better workflow
+              </p>
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Maiores impedit perferendis suscipit eaque, iste
+                dolor cupiditate blanditiis ratione.
+              </p>
+              <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+                {features.map(feature => (
+                  <div key={feature.name} className="relative pl-9">
+                    <dt className="inline font-semibold text-gray-900">
+                      <feature.icon
+                        className="absolute top-1 left-1 h-5 w-5 text-indigo-600"
+                        aria-hidden="true"
+                      />
+                      {feature.name}
+                    </dt>{" "}
+                    <dd className="inline">{feature.description}</dd>
+                  </div>
+                ))}
+              </dl>
             </div>
-        </section>
-        
-    );
-  }
-  
+          </div>
+          <img
+            src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+            alt="Product screenshot"
+            className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+            width={2432}
+            height={1442}
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
