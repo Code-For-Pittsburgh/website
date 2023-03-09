@@ -117,7 +117,7 @@ export default function Resources() {
               </h3>
               <p className="mt-2 text-sm text-slate-600">
                 A private Discord server where you can get help and
-                give feedback on each others' work.
+                give feedback on each others work.
               </p>
             </div>
           </li>
