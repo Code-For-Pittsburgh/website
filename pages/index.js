@@ -8,11 +8,13 @@ import Cta from "@components/landingPage/cta";
 import VerticalTimeline from "@components/landingPage/timeline";
 import Stats from "@components/landingPage/stats";
 import Teams from "@components/landingPage/Team";
+import MouseTrailer from "@components/mouseTrailer/mouseTrailer";
 
 function App() {
   return (
     <>
       <Navbar />
+      <MouseTrailer />
       <Hero side="right" />
       <AboutUs/>
       <Cta side="left" />
