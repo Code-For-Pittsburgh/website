@@ -22,39 +22,39 @@ import {
 
 const products = [
   {
-    name: "Analytics",
-    description: "Get a better understanding of your traffic",
-    href: "#",
+    name: "Our mission",
+    description: "Why we do what we do",
+    href: "/#our-mission",
     icon: ChartPieIcon
   },
   {
-    name: "Engagement",
-    description: "Speak directly to your customers",
-    href: "#",
+    name: "Our services",
+    description: "What we've done, and what we plan on doing",
+    href: "/#services",
     icon: CursorArrowRaysIcon
   },
   {
-    name: "Security",
-    description: "Your customers’ data will be safe and secure",
-    href: "#",
+    name: "Our story",
+    description: "Learn about how we've grown, and where we're going",
+    href: "/#timeline",
     icon: FingerPrintIcon
   },
   {
-    name: "Integrations",
-    description: "Connect with third-party tools",
-    href: "#",
+    name: "Who we are",
+    description: "Meet the team",
+    href: "/#our-team",
     icon: SquaresPlusIcon
   },
   {
-    name: "Automations",
-    description: "Build strategic funnels that will convert",
-    href: "#",
-    icon: ArrowPathIcon
-  }
+    name: "Work with us",
+    description: "Connect with us today!",
+    href: "/contact",
+    icon: SquaresPlusIcon
+  },
 ];
 const callsToAction = [
-  { name: "Watch demo", href: "#", icon: PlayCircleIcon },
-  { name: "Contact sales", href: "#", icon: PhoneIcon }
+  // { name: "Watch demo", href: "#", icon: PlayCircleIcon },
+  // { name: "Contact sales", href: "#", icon: PhoneIcon }
 ];
 
 function classNames(...classes) {
@@ -62,7 +62,7 @@ function classNames(...classes) {
 }
 
 export default function Navbar() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(true);
 
   return (
     <header className="bg-white">
@@ -91,7 +91,7 @@ export default function Navbar() {
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
             <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
-              Product
+              Who are we?
               <ChevronDownIcon
                 className="h-5 w-5 flex-none text-gray-400"
                 aria-hidden="true"
@@ -151,26 +151,26 @@ export default function Navbar() {
           </Popover>
 
           <a
-            href="#"
+            href="/partners"
             className="text-sm font-semibold leading-6 text-gray-900">
-            Features
+            Our Partners
           </a>
           <a
-            href="#"
+            href="/contact"
             className="text-sm font-semibold leading-6 text-gray-900">
-            Marketplace
+            Get in Touch
           </a>
           <a
-            href="#"
+            href="/company"
             className="text-sm font-semibold leading-6 text-gray-900">
             Company
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a
-            href="#"
+            href="/about"
             className="text-sm font-semibold leading-6 text-gray-900">
-            More <span aria-hidden="true">&rarr;</span>
+            Learn More <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
       </nav>
