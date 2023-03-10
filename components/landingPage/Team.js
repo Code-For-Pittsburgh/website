@@ -1,6 +1,6 @@
 export default function Teams() {
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section id='our-team' className="bg-white dark:bg-gray-900">
       <div className="container xl:w-full w-11/12 mx-auto pt-16 overflow-y-hidden">
         <div className="xl:flex lg:flex md:flex sm:flex flex-wrap justify-around pt-20">
           <div className="xl:w-4/12 lg:w-2/4 md:w-2/5 sm:w-2/5 max-w-sm mb-8 border-b border-gray-300 dark:border-gray-700 pb-6">

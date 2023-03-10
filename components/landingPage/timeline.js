@@ -2,7 +2,7 @@ import data from "../data/timelinedata";
 
 export default function VerticalTimeline() {
   return (
-    <div className="bg-white py-24 dark:bg-gray-900">
+    <div id='timeline' className="bg-white py-24 dark:bg-gray-900">
       <div className="px-5">
         <div className="text-center">
           <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
