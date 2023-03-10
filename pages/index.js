@@ -19,11 +19,11 @@ function App() {
       <SmallBanner />
       <Navbar />
       <Hero side="right" />
-      <LogoCloud />
+      {/* <LogoCloud /> */}
 
       <AboutUs />
-      <Pricing />
-      <Resources />
+      {/* <Pricing /> */}
+      {/* <Resources /> */}
 
       <Features />
       <VerticalTimeline />
