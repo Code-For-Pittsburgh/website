@@ -24,7 +24,7 @@ export default function ContactEntry(){
     <>
         <section id='contact' className="relative py-36 bg-white overflow-hidden dark:bg-gray-900 dark:text-white">
         <img className="absolute bottom-0 right-0" src="flaro-assets/images/contact/gradient2.svg" alt="" />
-        <div className="relative z-10 container px-4 mx-auto">
+        <div className="relative z-1 container px-4 mx-auto">
             <div className="flex flex-wrap -m-8">
             <div className="w-full md:w-1/2 p-8">
                 <div className="flex flex-col justify-between h-full">
