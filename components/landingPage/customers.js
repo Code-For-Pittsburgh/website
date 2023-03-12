@@ -1,12 +1,12 @@
 export default function Customers() {
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section className="bg-white">
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
-          <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+          <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 ">
             Our Customers
           </h2>
-          <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
+          <p className="font-light text-gray-500 sm:text-xl ">
             Whether you are a small non-profit just starting out or a
             well-established organization looking for a new website,
             we are here to help. Let&aspos;s work together to make a
@@ -14,9 +14,9 @@ export default function Customers() {
           </p>
         </div>
         <div className="grid gap-8 lg:grid-cols-2">
-          <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md ">
             <div className="flex justify-between items-center mb-5 text-gray-500">
-              <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+              <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded ">
                 <svg
                   className="mr-1 w-3 h-3"
                   fill="currentColor"
@@ -28,10 +28,10 @@ export default function Customers() {
               </span>
               <span className="text-sm">14 days ago</span>
             </div>
-            <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
               <a href="#">How to quickly deploy a static website</a>
             </h2>
-            <p className="mb-5 font-light text-gray-500 dark:text-gray-400">
+            <p className="mb-5 font-light text-gray-500 ">
               Static websites are now used to bootstrap lots of
               websites and are becoming the basis for a variety of
               tools that even influence both web designers and
@@ -44,7 +44,7 @@ export default function Customers() {
                   src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
                   alt="Jese Leos avatar"
                 />
-                <span className="font-medium dark:text-white">
+                <span className="font-medium ">
                   Jese Leos
                 </span>
               </div>

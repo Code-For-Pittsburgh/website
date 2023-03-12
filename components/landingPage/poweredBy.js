@@ -7,7 +7,7 @@ export default function PoweredBy() {
           <div className="flex flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-between">
             <a
               href="#"
-              className="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-primary-400">
+              className="mr-5 mb-5 lg:mb-0 hover:text-gray-800 ">
               <svg
                 className="h-8"
                 viewBox="0 0 132 29"
@@ -53,7 +53,7 @@ export default function PoweredBy() {
             </a>
             <a
               href="#"
-              className="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-primary-400">
+              className="mr-5 mb-5 lg:mb-0 hover:text-gray-800 ">
               <svg
                 className="h-11"
                 viewBox="0 0 208 42"
@@ -75,7 +75,7 @@ export default function PoweredBy() {
             </a>
             <a
               href="#"
-              className="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-primary-400">
+              className="mr-5 mb-5 lg:mb-0 hover:text-gray-800 ">
               <svg
                 className="h-11"
                 viewBox="0 0 120 41"
