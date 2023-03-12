@@ -6,7 +6,7 @@ export default function About(){
         <>
             <Navbar />
             <div className="text-center mx-auto my-96">
-                This post is comming soon, but just know we are planning something big. Check out our timeline on the main page for a hint as to what's coming. 
+                This post is comming soon, but just know we are planning something big. Check out our timeline on the main page for a hint as to what&apos;s coming. 
             </div>
             <Footer />
         </>
