@@ -3,7 +3,6 @@ import {useEffect, useRef} from 'react';
 
 export default function MouseTrailer() {
     const blobRef = useRef();
-
     let style = {
         // background: "linearGradient(purple, aquamarine)",
         // background: "blue",
@@ -25,7 +24,7 @@ export default function MouseTrailer() {
 
     // if the mouse moves, find the position and update the position ref
     useEffect(() => {
-        
+
         document.addEventListener("mousemove", (event) => {
           const { clientX, clientY } = event;
     
