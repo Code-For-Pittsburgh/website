@@ -2,9 +2,9 @@ import data from "../data/partnerData";
 
 export default function PartnersDisplay() {
     return (
-        <section className="py-24 bg-white dark:bg-gray-900 overflow-hidden">
+        <section className="py-24 bg-white overflow-hidden">
         <div className="container px-4 mx-auto">
-            <h2 className="dark:text-white mb-5 text-6xl md:text-8xl xl:text-10xl text-center font-bold font-heading font-heading tracking-px-n leading-none">Our Partners</h2>
+            <h2 className=" mb-5 text-6xl md:text-8xl xl:text-10xl text-center font-bold font-heading font-heading tracking-px-n leading-none">Our Partners</h2>
             <p className="mb-16 text-lg text-gray-600 text-center font-medium leading-normal md:max-w-lg mx-auto">Check out who we&apos;ve worked with, what we&apos;ve done, and what they&apos;ve done.</p>
             <div className="md:max-w-6xl mx-auto">
             <div className="flex flex-wrap -m-3.5 mb-10">

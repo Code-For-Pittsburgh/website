@@ -22,7 +22,7 @@ export default function ContactEntry(){
 
     return(
     <>
-        <section id='contact' className="relative py-36 bg-white overflow-hidden dark:bg-gray-900 dark:text-white">
+        <section id='contact' className="relative py-36 bg-white overflow-hidden">
         <img className="absolute bottom-0 right-0" src="flaro-assets/images/contact/gradient2.svg" alt="" />
         <div className="relative z-1 container px-4 mx-auto">
             <div className="flex flex-wrap -m-8">
@@ -47,7 +47,7 @@ export default function ContactEntry(){
                 </div>
             </div>
             <div className="w-full md:w-1/2 p-8">
-                <form className="px-11 pt-8 pb-12 bg-white dark:bg-gray-900 bg-opacity-80 md:max-w-xl ml-auto rounded-4xl shadow-12xl">
+                <form className="px-11 pt-8 pb-12 bg-white bg-opacity-80 md:max-w-xl ml-auto rounded-4xl shadow-12xl">
                 <label className="block mb-4">
                     <p className="mb-2 text-gray-900 font-semibold leading-normal">Name</p>
                     <div className="relative">

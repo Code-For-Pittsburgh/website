@@ -2,9 +2,9 @@ import data from "../data/partnerData";
 
 export default function Hero() {
     return (
-        <section className="bg-white dark:bg-gray-900">
+        <section className="bg-white">
             <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
-                <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+                <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
                     Meet our Partners
                 </h1>
             </div>
@@ -14,7 +14,7 @@ export default function Hero() {
                     <div
                     key={index}
                     className="relative pl-8 mb-12 lg:flex even:flex-row-reverse">
-                        <div className="absolute left-0 w-1 h-1 bg-white border-black dark:bg-slate-900 lg:left-1/2 lg:-translate-x-px translate-x-2"></div>
+                        <div className="absolute left-0 w-1 h-1 bg-white border-black lg:left-1/2 lg:-translate-x-px translate-x-2"></div>
                             
                             <h4 className="mt-4 text-l text-white lg:mt-0">
                                 {item.name}
