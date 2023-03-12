@@ -13,9 +13,13 @@ import SmallBanner from "@components/landingPage/smallbanner";
 import Pricing from "@components/landingPage/Pricing";
 import Resources from "@components/landingPage/Resources";
 
+// mouse trailer
+import MouseTrailer from "@components/mouseTrailer/mouseTrailer";
+
 function App() {
   return (
     <>
+      <MouseTrailer/>
       <SmallBanner />
       <Navbar />
       <Hero side="right" />
