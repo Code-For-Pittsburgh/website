@@ -1,0 +1,30 @@
+#blob {
+    background: linear-gradient(purple, aquamarine);
+    opacity: 0.8;
+    height: 400px;
+    width: 550px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    border-radius: 50%;
+    animation: rotation 20s infinite linear;
+    z-index: 100;
+    filter: blur(150px);
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
+  
+
+
+
+
+
+  
