@@ -12,7 +12,7 @@ export default function MouseTrailer() {
         position: "fixed",
         left: "500px",
         top: "500px",
-        zIndex: "9999000",
+        zIndex: "999999999999999999",
         borderRadius: "50%",
         animation: "rotation 20s infinite linear",
         filter: "blur(150px)",
