@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
+import Globe from "@components/landingPage/globe";
+
 const navigation = [
   { name: "Home", href: "#" },
   { name: "About", href: "/about" },
@@ -12,7 +14,7 @@ export default function Hero() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="isolate bg-white">
+    <div className="relative isolate bg-white">
       <main id='#our-mission'>
         <div className="relative px-6 lg:px-8">
           <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
@@ -76,6 +78,7 @@ export default function Hero() {
           </div>
         </div>
       </main>
+      <Globe/>
     </div>
   );
 }
