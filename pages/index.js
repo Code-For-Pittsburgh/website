@@ -12,6 +12,7 @@ import LogoCloud from "@components/landingPage/LogoCloud";
 import SmallBanner from "@components/landingPage/smallbanner";
 import Pricing from "@components/landingPage/Pricing";
 import Resources from "@components/landingPage/Resources";
+import Globe from "@components/landingPage/globe";
 
 // mouse trailer
 import MouseTrailer from "@components/mouseTrailer/mouseTrailer";
@@ -24,7 +25,7 @@ function App() {
       <Navbar />
       <Hero side="right" />
       {/* <LogoCloud /> */}
-
+      {/* <Globe/> */}
       <AboutUs />
       {/* <Pricing /> */}
       {/* <Resources /> */}
