@@ -7,15 +7,15 @@ export default function MouseTrailer() {
         // background: "linearGradient(purple, aquamarine)",
         // background: "blue",
         opacity: ".91",
-        height: "300px",
-        width: "350px",
+        height: "400px",
+        width: "450px",
         position: "fixed",
         left: "500px",
         top: "500px",
         zIndex: "9999000",
         borderRadius: "50%",
-        animation: "rotation 8s infinite linear",
-        filter: "blur(130px)",
+        animation: "rotation 20s infinite linear",
+        filter: "blur(150px)",
         translate: '-50% -50%',
         pointerEvents: "none",
     }  
@@ -53,7 +53,7 @@ export default function MouseTrailer() {
 
     return(
         // <div id='blob' style={{myStyle}} ref={blobRef}></div>
-        <div id='blob' style={style} ref={blobRef} className="bg-gradient-to-r from-red-400 to-blue-500"></div>
+        <div id='blob' style={style} ref={blobRef} className="bg-gradient-to-r from-sky-400 to-purple-500"></div>
     );
 
 }
