@@ -8,12 +8,33 @@ const data = [
       url2: "allderdicedragonbreath.com"
     },
     {
-        name: "Next Partner",
-        url: "www.goofy.com",
-        date: "February 20th, 2023",
-        description: " ",
-        url2: " ", 
+      name: "NS Athletics",
+      url: "",
+      date: "February 20th, 2023",
+      description: "We helped launch NS Athletics, a small athletic-wear design company committed to powerful meaning, and ethicallly sourced materials. ",
+      url2: "????", 
       },
+    {
+      name: "Barber Woods",
+      url: "",
+      date: "March 1st, 2023",
+      description: "In need of a personal gift? Barber Woods' creates handmade, high quality wood works. Whether that be as small as coasters, to as big as tables and bedframes.",
+      url2: "????", 
+    },
+    {
+      name: "In the works #1",
+      url: "",
+      date: "March 2023",
+      description: "This partner will be announced soon",
+      url2: "????", 
+    },
+    {
+      name: "In the works #2",
+      url: "",
+      date: "March 2023",
+      description: "This partner will be announced soon",
+      url2: "????", 
+    },
   ];
 
   
