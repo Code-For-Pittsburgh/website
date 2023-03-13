@@ -53,7 +53,7 @@ export default function MouseTrailer() {
 
     return(
         // <div id='blob' style={{myStyle}} ref={blobRef}></div>
-        <div id='blob' style={style} ref={blobRef} className="bg-gradient-to-r from-sky-400 to-purple-500"></div>
+        <div id='blob' style={style} ref={blobRef} className="bg-gradient-to-r from-green-400 to-purple-500"></div>
     );
 
 }
