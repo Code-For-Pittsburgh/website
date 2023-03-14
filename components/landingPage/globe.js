@@ -43,7 +43,7 @@ export default function Globe() {
     return(
         <canvas
         ref={canvasRef}
-        style={{zIndex: -100, top: "92%", left: "50%", translate: "-50% -50%", position: "absolute", width: 400, height: 400, maxWidth: "100%", aspectRatio: 1 }}
+        style={{zIndex: -100, top: "92%", left: "50%", margin: "50px 0px", translate: "-50% -50%", position: "absolute", width: 400, height: 400, maxWidth: "100%", aspectRatio: 1 }}
          />    
       );
 }

@@ -17,7 +17,7 @@ export default function Hero() {
     <div className="relative isolate bg-white">
       <main id='#our-mission'>
         <div className="relative px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+          <div className="mx-auto max-w-2xl py-24 sm:py-38 lg:py-44">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
               <div className="relative rounded-full py-1 px-3 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                 Announcing our next cohort of partners. {" "}
