@@ -2,7 +2,7 @@ import data from "../data/timelinedata";
 
 export default function VerticalTimeline() {
   return (
-    <div id='timeline' className="bg-white py-24 ">
+    <div id="timeline" className="bg-white py-24 ">
       <div className="px-5">
         <div className="text-center">
           <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 ">
@@ -12,12 +12,12 @@ export default function VerticalTimeline() {
             How we started and where we&apos;re going
           </p>
         </div>
-        <div className="relative max-w-xl mx-auto my-16 lg:max-w-3xl before:absolute before:top-0 before:w-0.5 before:h-full before:left-2 before:bg-gray-800 lg:before:left-1/2">
+        <div className="relative max-w-xl mx-auto my-16 lg:max-w-3xl before:absolute before:top-0 before:w-0.5 before:h-full before:left-2 before:bg-zinc-900 lg:before:left-1/2">
           {data.map((item, index) => (
             <div
               key={index}
               className="relative pl-8 mb-12 lg:flex even:flex-row-reverse">
-              <div className="absolute left-0 w-1 h-1 bg-white border-black  lg:left-1/2 lg:-translate-x-px translate-x-2"></div>
+              <div className="absolute left-0 w-1 h-1 bg-white border-red-100  lg:left-1/2 lg:-translate-x-px translate-x-2"></div>
               <p
                 className={`text-sm font-medium text-primary-500 uppercase lg:w-1/2 lg:mt-px  lg:pr-8 ${
                   index % 2 === 0 ? "lg:text-right" : "lg:text-left"

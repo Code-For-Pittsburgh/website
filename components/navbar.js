@@ -50,7 +50,7 @@ const products = [
     description: "Connect with us today!",
     href: "/contact",
     icon: SquaresPlusIcon
-  },
+  }
 ];
 const callsToAction = [
   // { name: "Watch demo", href: "#", icon: PlayCircleIcon },
@@ -62,16 +62,18 @@ function classNames(...classes) {
 }
 
 export default function Navbar() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(true);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-      <header className="bg-white" style={{borderTop: "black 1px solid", borderBottom: "black 1px solid"}}>
+    <header className="bg-white b">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">- - - - - - - - Code For Pittsburgh - - - - - - - </span>
+            <span className="sr-only">
+              - - - - - - - - Code For Pittsburgh - - - - - - -
+            </span>
             <img
               className="h-8 w-auto"
               src="/bridgeFavicon.svg"

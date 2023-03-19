@@ -5,7 +5,7 @@ html{
 
 html{
   background-color: white;
-  scroll-behavior: smooth;
+  overflow: visible
   }
 
 @tailwind base;

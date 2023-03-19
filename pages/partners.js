@@ -6,15 +6,11 @@ import Hero from "@components/partnerPage/hero";
 import PartnersDisplay from "@components/partnerPage/partnersDisplay";
 import MouseTrailer from "@components/mouseTrailer/mouseTrailer";
 
-export default function Partners(){
-    return(
-        <>
-            <MouseTrailer/>
-            <Navbar />
-            <PartnersDisplay />
-            <Footer />
-        </>
-    )
+export default function Partners() {
+  return (
+    <>
+      <MouseTrailer />
+      <PartnersDisplay />
+    </>
+  );
 }
-
-

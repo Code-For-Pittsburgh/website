@@ -20,9 +20,7 @@ import MouseTrailer from "@components/mouseTrailer/mouseTrailer";
 function App() {
   return (
     <>
-      <MouseTrailer/>
-      <SmallBanner />
-      <Navbar />
+      <MouseTrailer />
       <Hero side="right" />
       {/* <LogoCloud /> */}
       {/* <Globe/> */}
@@ -35,7 +33,6 @@ function App() {
       {/* <PoweredBy /> */}
       <Teams />
       <Stats />
-      <Footer />
     </>
   );
 }
